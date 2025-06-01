@@ -75,11 +75,17 @@ const HeroSection = () => {
         <p className="text-lg font-semibold bg-gradient-to-r from-teal-400 to-blue-500 text-transparent bg-clip-text transition-all duration-500">
           {text}<span className="text-white">|</span>
         </p>
-        <div className="flex justify-center space-x-4">
-          <a href="https://drive.usercontent.google.com/download?id=10ZFvntnYnpuEdgDQzpiVN11GQJlbR9te&export=download" className="px-6 py-2 rounded-md bg-white bg-opacity-10 border border-cyan-300 hover:bg-opacity-20 backdrop-blur-md text-cyan-300 hover:text-white transition">
+        <div className="flex flex-col sm:flex-row justify-center items-center space-y-3 sm:space-y-0 sm:space-x-4">
+          <a
+            href="https://drive.usercontent.google.com/download?id=10ZFvntnYnpuEdgDQzpiVN11GQJlbR9te&export=download"
+            className="px-6 py-2 rounded-md bg-white bg-opacity-10 border border-cyan-300 hover:bg-opacity-20 backdrop-blur-md text-cyan-300 hover:text-white transition text-center"
+          >
             Download Resume
           </a>
-          <a href="#" className="px-6 py-2 rounded-md bg-cyan-400 hover:bg-cyan-500 text-black transition">
+          <a
+            href="#contact"
+            className="px-6 py-2 rounded-md bg-cyan-400 hover:bg-cyan-500 text-black transition text-center"
+          >
             Contact
           </a>
         </div>
