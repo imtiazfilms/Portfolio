@@ -1,5 +1,6 @@
 import AboutMe from "../Components/AboutMe"
 import HeroSection from "../Components/HeroSection"
+import ProjectsSection from "../Components/ProjectsSection"
 import SkillsSection from "../Components/SkillsSection"
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
       <HeroSection></HeroSection>
       <AboutMe></AboutMe>
       <SkillsSection></SkillsSection>
+      <ProjectsSection></ProjectsSection>
     </div>
   )
 }

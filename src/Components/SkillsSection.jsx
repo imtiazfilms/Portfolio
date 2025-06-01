@@ -17,21 +17,31 @@ const skills = [
 
 const SkillsSection = () => {
   return (
-    <section className="text-white py-20 px-4">
+    <section id="skill" className="py-20 px-4 text-white">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl font-bold text-cyan-400 mb-10">Technical Skills</h2>
+        <h2 className="text-4xl font-bold text-cyan-400 mb-12 tracking-wide">Technical Skills</h2>
+
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
           {skills.map((skill, index) => (
             <motion.div
               key={skill.name}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.1, duration: 0.5 }}
+              transition={{ delay: index * 0.07, duration: 0.4 }}
               viewport={{ once: true }}
-              className="bg-white/10 hover:bg-white/20 backdrop-blur-md rounded-xl p-4 flex flex-col items-center shadow-md hover:scale-105 transition duration-300"
+              className="group relative bg-white/5 backdrop-blur-md rounded-2xl p-5 flex flex-col items-center justify-center shadow-xl hover:shadow-cyan-500/20 hover:scale-105 transition-all duration-300 min-h-[130px] overflow-hidden"
             >
-              <img src={skill.icon} alt={skill.name} className="w-12 h-12 mb-3" />
-              <p className="text-gray-300 text-sm font-medium">{skill.name}</p>
+              <div className="relative z-10 flex flex-col items-center justify-center">
+                <img
+                  src={skill.icon}
+                  alt={skill.name}
+                  className="w-12 h-12 object-contain mb-3"
+                />
+                <p className="text-gray-200 text-sm font-semibold text-center">{skill.name}</p>
+              </div>
+
+              {/* Glow on hover */}
+              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-2xl bg-cyan-400/10 rounded-2xl pointer-events-none z-0" />
             </motion.div>
           ))}
         </div>
