@@ -1,12 +1,48 @@
-# React + Vite
+# 💼 Imtiaz Ahamed – Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! Built with creativity and modern design principles, this site showcases my skills, projects, education, and provides a simple way for you to get in touch with me.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🧠 **About Me** – Know who I am and what I do.
+- 🧩 **Skills** – A sleek overview of my technical skills.
+- 📚 **Education** – My academic background with animations.
+- 🛠️ **Latest Projects** – Showcasing some of my most recent work.
+- 📬 **Contact Form** – Send messages directly to my email using EmailJS.
+- 📱 **Responsive Design** – Optimized for mobile, tablet, and desktop.
+- ✨ **Interactive UI** – Smooth animations with Framer Motion.
+- 🧭 **Floating Navigation Bar** – Minimal and accessible from all views.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, Tailwind CSS, Framer Motion
+- **Email Service**: EmailJS
+- **Icons**: React Icons
+- **Animations**: Framer Motion
+- **Alerts**: SweetAlert2
+
+---
+
+
+---
+
+## 📧 Contact
+
+Feel free to reach out through the contact form on the site, or:
+
+- 📬 Email: imtiazahamed.angkur@gmail.com
+- 📍 Location: Dhaka, Bangladesh
+
+---
+
+## 🌐 Live Preview
+
+Visit my [Portfolio](https://portfolio-of-imtiaz.netlify.app/)
+
+---
+
+Made with 💙 by **Imtiaz Ahamed**
