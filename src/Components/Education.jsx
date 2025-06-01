@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const educationData = [
   {
     title: "B.Sc. in Computer Science & Engineering",
-    institution: "Northern University Bangladesh (Evening Shift)",
+    institution: "Northern University Bangladesh",
     details: "Expected Graduation: November 2028",
     icon: <FaUniversity className="text-3xl text-cyan-400" />,
   },
